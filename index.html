@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Message</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Login Container -->
+    <div class="login-container" id="loginContainer">
+        <h1>HI BABIIII! LOG IN KA.</h1>
+        <form id="loginForm">
+            <label for="username">Name:</label>
+            <input type="text" id="username" required autofocus>
+            <button type="submit">Log In</button>
+        </form>
+        <p id="error-message"></p>
+    </div>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="hidden">
+        <div class="mail-paper">
+            <p>Hello babi, you're so gorgeous! ❤️</p>
+        </div>
+        <button id="exitButton" class="heart-button">Exit ❤️</button>
+    </div>
+
+    <!-- Kiss GIF Modal -->
+    <div id="kissModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="https://media1.tenor.com/m/o_5RQarGvJ0AAAAC/kiss.gif" 
+                 alt="Kiss GIF" 
+                 class="kiss-gif">
+        </div>
+    </div>
+</body>
+</html>
