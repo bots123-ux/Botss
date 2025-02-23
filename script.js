@@ -2,7 +2,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     e.preventDefault();
     const username = document.getElementById('username').value.trim().toUpperCase();
     
-    if(username === 'ANGELA') {
+    if(username === 'ANGELA ROSE VALENZUELA') {
         // Change background
         document.body.style.backgroundImage = 'url("https://c.tenor.com/LRDMe1QpqFYAAAAC/cat-cute.gif")';
         
